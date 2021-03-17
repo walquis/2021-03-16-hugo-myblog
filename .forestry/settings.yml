@@ -24,6 +24,8 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.79.1
   preview_output_directory: public
+  install_dependencies_command: cd themes/Blonde; npm install -g postcss-cli; npm
+    install autoprefixer; npm install postcss
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
