@@ -17,3 +17,42 @@ fields:
 - type: text
   name: title
   label: title
+- name: a_tags_field
+  type: tag_list
+  default: []
+  label: A tags field
+- name: a_field_for_textarea
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: A field for textarea
+  description: Enter text for your textarea field
+- name: covid_work-from-home_anniversary
+  type: datetime
+  description: When did your company start working from home?
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Covid work-from-home anniversary
+- name: marvel_movies
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Marvel Movies
+- name: my_profile_pic
+  type: file
+  config:
+    maxSize: 64
+  label: My Profile Pic
+- name: things_that_come_in_groups
+  type: field_group
+  config: {}
+  label: Things that come in groups
