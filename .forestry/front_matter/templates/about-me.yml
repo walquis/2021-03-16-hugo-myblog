@@ -55,4 +55,18 @@ fields:
 - name: things_that_come_in_groups
   type: field_group
   config: {}
+  fields:
+  - name: am_i_happy_right_now
+    type: boolean
+    label: Am I happy right now
+  - name: number_of_times_i_get_up_and_walk_around_during_the_day
+    type: number
+    label: Number of times I get up and walk around during the day
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
   label: Things that come in groups
