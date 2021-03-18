@@ -1,0 +1,19 @@
+---
+label: about-me
+hide_body: false
+fields:
+- type: list
+  name: aliases
+  label: aliases
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: text
+  name: title
+  label: title
