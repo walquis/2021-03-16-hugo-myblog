@@ -70,3 +70,5 @@ fields:
       max: 
       step: 
   label: Things that come in groups
+pages:
+- content/about.md
